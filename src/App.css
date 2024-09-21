@@ -1,0 +1,96 @@
+.wallet-btns{
+    padding-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+main{
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+.page-1{
+    height: 100vh;
+}
+
+.airdrop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.airdrop h1{
+    font-size: 6rem;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.transaction-successful{
+    height: 5rem;
+    padding-top: 1rem;
+}
+
+.airdrop h2{
+    font-size: 1rem;
+    color: white;
+}
+
+.btn{
+    margin-top: 3rem;
+}
+
+.show-balance{
+    padding: 2rem 5rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.show-balance p{
+    font-size: 3rem;
+    color: orange;
+}
+
+.show-balance #balance{
+    color: #F7EFE5;
+    font-size: 3rem;
+}
+
+.page-2{
+    height: 100vh;
+}
+
+.sign-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.sign-message-input{
+    display: flex;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.sign-message h1{
+    font-size: 5rem;
+    color: white;
+}
+
+.send-tokens{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-tokens h1{
+    color: white;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
